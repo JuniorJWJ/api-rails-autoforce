@@ -15,6 +15,9 @@ Rails.application.routes.draw do
       
       # Rota para mostrar um veículo específico
       get 'vehicles/:id', to: 'vehicles#show'
+
+      # Rota para a promoção do dia
+      get 'vehicle/promotion', to: 'vehicles#promotion'
     end
   end
 end
