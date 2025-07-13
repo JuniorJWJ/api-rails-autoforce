@@ -233,3 +233,5 @@ Utilizei IAs para estruturar o projeto e tirar minhas dúvidas também.
 Além disso, encontrei dificuldades para navegar pelas pastas do sistema. Por exemplo, precisei utilizar comandos como `cd /mnt/c/Users/JR/Documents/Dev/Ruby` para acessar os diretórios corretamente no ambiente Linux. Embora tenha sido um desafio, essa experiência me ensinou muito sobre a interação entre sistemas operacionais diferentes.
 
 Estou bastante satisfeito com meu desempenho, mesmo que tenha feito pouca coisa, pois a API está apenas com métodos GETs e dados estáticos, pois nao usei banco de dados
+
+Não consegui hospedar a API, tentei métodos gratuitos mas não obtive êxito
