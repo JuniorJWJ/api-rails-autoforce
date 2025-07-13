@@ -60,7 +60,7 @@ O projeto segue a estrutura padrão de uma aplicação Rails, com algumas partic
 *   **`config/application.rb`**: Contém as configurações globais da aplicação, incluindo a adição do diretório `app/data` aos `autoload_paths` para que os dados dos veículos sejam carregados automaticamente. A linha `config.api_only = true` indica que esta é uma aplicação Rails apenas para API, otimizando o carregamento de middlewares.
 *   **`config/routes.rb`**: Define todas as rotas da API, mapeando os endpoints para as ações correspondentes nos controladores. As rotas são aninhadas sob `namespace :api do namespace :v1 do ... end end` para versionamento da API.
 *   **`app/controllers/api/v1/vehicles_controller.rb`**: Este é o controlador principal que lida com as requisições relacionadas a veículos. Ele contém as ações para listar todos os veículos (`index`), buscar um veículo específico por ID (`show`) e encontrar o veículo em promoção (`promotion`).
-*   **`app/data/vehicle_data.rb`**: Este módulo atua como uma fonte de dados estática para os veículos. Ele simula um banco de dados, retornando um array de hashes com os detalhes dos veículos. Em um ambiente de produção, esta parte seria substituída por um banco de dados real (ex: PostgreSQL, MySQL) e um ORM como o ActiveRecord.
+*   **`app/data/vehicle_data.rb`**: Este módulo atua como uma fonte de dados estática para os veículos. Ele simula um banco de dados, retornando um array de hashes com os detalhes dos veículos. Em um ambiente de produção, esta parte seria substituída por um banco de dados real.
 
 ## Endpoints da API
 
