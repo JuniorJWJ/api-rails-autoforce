@@ -90,7 +90,13 @@ A API de Veículos expõe os seguintes endpoints:
         "mileage": "5.000 KM",
         "fuel": "FLEX",
         "price": "R$ 92.500,00",
-        "image_url": "car1.jpg",
+        "images_url": [
+            "car1.jpg",
+            "car2.jpg",
+            "car3.jpg",
+            "car4.jpg",
+            "car5.jpg"
+        ],
         "promotion": true,
         "color": "Prata",
         "plate_end": "7",
@@ -108,7 +114,13 @@ A API de Veículos expõe os seguintes endpoints:
         "mileage": "18.000 KM",
         "fuel": "FLEX",
         "price": "R$ 112.900,00",
-        "image_url": "car2.jpg",
+        "images_url": [
+            "car1.jpg",
+            "car2.jpg",
+            "car3.jpg",
+            "car4.jpg",
+            "car5.jpg"
+        ],
         "promotion": false,
         "color": "Prata",
         "plate_end": "5",
