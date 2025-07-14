@@ -11,7 +11,13 @@ module VehicleData
         mileage: "5.000 KM",
         fuel: "FLEX",
         price: "R$ 92.500,00",
-        image_url: "car1.jpg",
+        images_url: [
+          "car6.jpg",
+          "car2.jpg",
+          "car3.jpg",
+          "car4.jpg",
+          "car5.jpg"
+        ],
         promotion: true,
         color: "Prata",  
         plate_end: "7",  
@@ -29,7 +35,13 @@ module VehicleData
         mileage: "18.000 KM",
         fuel: "FLEX",
         price: "R$ 112.900,00",
-        image_url: "car2.jpg",
+        images_url: [
+          "car1.jpg",
+          "car2.jpg",
+          "car3.jpg",
+          "car4.jpg",
+          "car5.jpg"
+        ],
         promotion: false,
         color: "Prata",  
         plate_end: "5",  
@@ -45,7 +57,13 @@ module VehicleData
         mileage: "25.000 KM",
         fuel: "FLEX",
         price: "R$ 139.990,00",
-        image_url: "car3.jpg",
+        images_url: [
+          "car7.jpg",
+          "car2.jpg",
+          "car3.jpg",
+          "car4.jpg",
+          "car5.jpg"
+        ],
         promotion: false,
         color: "Branco",  
         plate_end: "3",  
@@ -61,7 +79,13 @@ module VehicleData
         mileage: "40.000 KM",
         fuel: "FLEX",
         price: "R$ 109.990,00",
-        image_url: "car4.jpg",
+        images_url: [
+          "car8.jpg",
+          "car2.jpg",
+          "car3.jpg",
+          "car4.jpg",
+          "car5.jpg"
+        ],
         promotion: false,
         color: "Preto",  
         plate_end: "2",  
@@ -79,7 +103,13 @@ module VehicleData
         mileage: "12.000 KM",
         fuel: "FLEX",
         price: "R$ 114.990,00",
-        image_url: "car5.jpg",
+        images_url: [
+          "car1.jpg",
+          "car2.jpg",
+          "car3.jpg",
+          "car4.jpg",
+          "car5.jpg"
+        ],
         promotion: false,
         color: "Vermelho",  
         plate_end: "4",  
@@ -97,7 +127,13 @@ module VehicleData
         mileage: "7.000 KM",
         fuel: "FLEX",
         price: "R$ 117.490,00",
-        image_url: "car6.jpg",
+        images_url: [
+          "car1.jpg",
+          "car2.jpg",
+          "car3.jpg",
+          "car4.jpg",
+          "car5.jpg"
+        ],
         promotion: false,
         color: "Cinza",  
         plate_end: "9",  
@@ -113,7 +149,13 @@ module VehicleData
         mileage: "48.000 KM",
         fuel: "FLEX",
         price: "R$ 101.900,00",
-        image_url: "car7.jpg",
+        images_url: [
+          "car1.jpg",
+          "car2.jpg",
+          "car3.jpg",
+          "car4.jpg",
+          "car5.jpg"
+        ],
         promotion: false,
         color: "Azul",  
         plate_end: "6",  
@@ -131,7 +173,13 @@ module VehicleData
         mileage: "22.000 KM",
         fuel: "FLEX",
         price: "R$ 148.000,00",
-        image_url: "car8.jpg",
+        images_url: [
+          "car1.jpg",
+          "car2.jpg",
+          "car3.jpg",
+          "car4.jpg",
+          "car5.jpg"
+        ],
         promotion: false,
         color: "Prata",  
         plate_end: "8",  
@@ -149,8 +197,14 @@ module VehicleData
         mileage: "3.000 KM",
         fuel: "HÍBRIDO",
         price: "R$ 176.490,00",
-        image_url: "car9.jpg",
-        promotion: false,
+        images_url: [
+          "car1.jpg",
+          "car2.jpg",
+          "car3.jpg",
+          "car4.jpg",
+          "car5.jpg"
+        ],
+                promotion: false,
         color: "Preto",  
         plate_end: "1",  
         badges: [
@@ -167,7 +221,13 @@ module VehicleData
         mileage: "35.000 KM",
         fuel: "FLEX",
         price: "R$ 97.990,00",
-        image_url: "car10.jpg",
+        images_url: [
+          "car1.jpg",
+          "car2.jpg",
+          "car3.jpg",
+          "car4.jpg",
+          "car5.jpg"
+        ],
         promotion: false,
         color: "Cinza",  
         plate_end: "0",  
